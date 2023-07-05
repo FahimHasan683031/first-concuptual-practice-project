@@ -144,3 +144,44 @@
         border: none;
         margin-top: 20px;
     }
+
+    /* footer css */
+    footer{
+        background: linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0.9));
+    }
+    .footer-top{
+        width: 75%;
+        height: 375px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        border-bottom: 1px solid gray;
+        margin: auto;
+        color: #fff;
+    }
+    .footer-top img{
+        height: 33.3px;
+        width: 170px;
+        padding: 5px;
+        margin: -10px 0 10px 0;
+    }
+    .footer-top h1{
+        font-size: 18.27px;
+        font-weight: bold;
+        line-height: 28.8px;
+        margin-bottom: 20px;
+    }
+    .footer-top p{
+        font-size: 16px;
+        line-height: 28.8px;
+    }
+    .footer-bottom{
+       
+        text-align: center;
+
+    }
+    .footer-bottom p{
+        font-size: 13px;
+        color: #fff;
+        padding: 20px;
+    }
