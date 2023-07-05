@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header-logo img{
+    width: 100px;
+    padding: 5px;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #424141;
+    height:65px ;
+}
+.header-manue{
+    display: flex;
+}
+.header-manue li{
+    list-style: none;
+    margin-right: 17px;
+    font-size: 18px;
+    color: #fff;
+    padding: 5px;
+    transition: .5s;
+    cursor: pointer;
+}
+.header-manue li:hover{
+    color: aqua;
+}
